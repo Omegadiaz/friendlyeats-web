@@ -71,6 +71,7 @@ FriendlyEats.prototype.getFilteredRestaurants = function(filters, renderer) {
   } else if (filters.sort === 'Reviews') {
     query = query.orderBy('numRatings', 'desc');
   }
+  //Vamos github tú puedess
 
 
   this.getDocumentsInQuery(query, renderer);
